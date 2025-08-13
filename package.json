@@ -5,7 +5,8 @@
   "main": "run_multi_site.js",
   "scripts": {
     "start": "node run_multi_site.js",
-    "test": "node test_single_site.js"
+    "test": "node test_single_site.js",
+    "postinstall": "apt-get update && apt-get install -y chromium-browser"
   },
   "keywords": [
     "instagram",
@@ -14,7 +15,7 @@
     "puppeteer",
     "multi-site"
   ],
-  "author": "come primas",
+  "author": "Automação Multi-Site",
   "license": "MIT",
   "dependencies": {
     "puppeteer": "^24.16.1"

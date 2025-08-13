@@ -286,10 +286,20 @@ class MultiSiteAutomation {
     }
 
     async initBrowser() {
-        this.browser = await puppeteer.launch({ 
+        // Configuração específica para o ambiente Render
+        const launchOptions = { 
             headless: true,
-            args: ['--no-sandbox', '--disable-setuid-sandbox']
-        });
+            args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+        };
+
+        // Se estivermos no Render, especificar o caminho do Chrome explicitamente
+        if (process.env.RENDER) {
+            const chromePath = '/opt/render/.cache/puppeteer/chrome/linux-139.0.7258.66/chrome-linux64/chrome';
+            launchOptions.executablePath = chromePath;
+            console.log(`Usando Chrome do Render em: ${chromePath}`);
+        }
+
+        this.browser = await puppeteer.launch(launchOptions);
         this.page = await this.browser.newPage();
         await this.page.setViewport({ width: 1366, height: 768 });
     }

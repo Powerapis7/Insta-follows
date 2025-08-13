@@ -5,8 +5,7 @@
   "main": "run_multi_site.js",
   "scripts": {
     "start": "node run_multi_site.js",
-    "test": "node test_single_site.js",
-    "postinstall": "apt-get update && apt-get install -y chromium-browser"
+    "test": "node test_single_site.js"
   },
   "keywords": [
     "instagram",

@@ -14,7 +14,7 @@
     "puppeteer",
     "multi-site"
   ],
-  "author": "Automação Multi-Site",
+  "author": "come primas",
   "license": "MIT",
   "dependencies": {
     "puppeteer": "^24.16.1"

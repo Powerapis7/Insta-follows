@@ -5,7 +5,8 @@
   "main": "run_multi_site.js",
   "scripts": {
     "start": "node run_multi_site.js",
-    "test": "node test_single_site.js"
+    "test": "node test_single_site.js",
+    "postinstall": "npx puppeteer browsers install chrome"
   },
   "keywords": [
     "instagram",

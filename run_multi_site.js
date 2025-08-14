@@ -2,7 +2,7 @@ const MultiSiteAutomation = require('./multi_site_automation');
 const express = require('express');
 
 // Configurações do usuário
-const username = 'Luisa_sfd10';
+const username = 'Luisa_sfd13';
 const password = 'LUANLEVY17';
 const targetUsername = 'comedor_di_primas';
 const followerCount = 500;

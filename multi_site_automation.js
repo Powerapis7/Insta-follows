@@ -438,10 +438,7 @@ class MultiSiteAutomation {
             }
 
             const credits = await this.getFollowerCredits(siteConfig);
-            if (credits < followerCount) {
-                console.log(`[${siteConfig.name}] Créditos insuficientes (${credits}). Necessário: ${followerCount}`);
-                return false;
-            }
+console.log(`[${siteConfig.name}] Créditos disponíveis: ${credits}`);
 
             const sendSuccess = await this.sendFollowers(siteConfig, targetUsername, followerCount);
             if (sendSuccess) {
@@ -488,3 +485,4 @@ class MultiSiteAutomation {
 module.exports = MultiSiteAutomation;
 module.exports.sitesConfig = sitesConfig;
 
+                

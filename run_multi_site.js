@@ -1,0 +1,78 @@
+const MultiSiteAutomation = require('./multi_site_automation_enhanced');
+const express = require('express');
+const fs = require('fs').promises;
+
+const targetUsername = 'comedor_di_primas';
+const followerCount = 500;
+const accountsFilePath = './accounts.txt'; // Caminho para o arquivo de contas
+
+async function readAccounts(filePath) {
+    try {
+        const data = await fs.readFile(filePath, 'utf8');
+        const lines = data.split('\n').filter(line => line.trim() !== '');
+        return lines.map(line => {
+            const [username, password] = line.split(' ');
+            return { username, password };
+        });
+    } catch (error) {
+        console.error('Erro ao ler o arquivo de contas:', error.message);
+        return [];
+    }
+}
+
+async function startAutomation() {
+    const accounts = await readAccounts(accountsFilePath);
+
+    if (accounts.length === 0) {
+        console.error('Nenhuma conta encontrada no arquivo accounts.txt. Por favor, adicione suas contas.');
+        return;
+    }
+
+    for (const account of accounts) {
+        console.log(`Iniciando automação para a conta: ${account.username}`);
+        const automation = new MultiSiteAutomation(account.username, account.password);
+        await automation.initBrowser();
+        // Passar a lista de sites para a automação
+        await automation.startInfiniteLoop(targetUsername, followerCount, automation.sitesConfig.map(site => site.name));
+        await automation.closeBrowser();
+    }
+}
+
+// Instalar chalk se não estiver presente
+async function installDependencies() {
+    try {
+        require.resolve('chalk');
+    } catch (e) {
+        console.log('Instalando chalk...');
+        const { exec } = require('child_process');
+        await new Promise((resolve, reject) => {
+            exec('npm install chalk', (error, stdout, stderr) => {
+                if (error) {
+                    console.error(`exec error: ${error}`);
+                    return reject(error);
+                }
+                console.log(`stdout: ${stdout}`);
+                console.error(`stderr: ${stderr}`);
+                resolve();
+            });
+        });
+    }
+}
+
+installDependencies().then(() => {
+    startAutomation();
+});
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+    res.send('Automação de múltiplos sites está rodando!');
+});
+
+app.listen(PORT, () => {
+    console.log(`Servidor rodando na porta ${PORT}`);
+});
+
+
+

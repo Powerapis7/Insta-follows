@@ -16,7 +16,7 @@ const sitesConfig = [
             findUserButton: "button",
             followerCount: "input[placeholder=\"50\"]",
             startButton: "button",
-            credit: ".credit-count, .credits, .balance, .user-credits, [class*=\'credit\'], [class*=\'balance\'], [id*=\'credit\'], [id*=\'balance\']"
+            credit: ".credit-count, .credits, .balance, .user-credits, [class*='credit'], [class*='balance'], [id*='credit'], [id*='balance']"
         },
         loginButtonText: "Giriş yap",
         findUserButtonText: "Kullanıcıyı Bul",
@@ -35,7 +35,7 @@ const sitesConfig = [
             findUserButton: "button",
             followerCount: "input[placeholder=\"50\"]",
             startButton: "button",
-            credit: ".credit-count, .credits, .balance, .user-credits, [class*=\'credit\'], [class*=\'balance\'], [id*=\'credit\'], [id*=\'balance\']"
+            credit: ".credit-count, .credits, .balance, .user-credits, [class*='credit'], [class*='balance'], [id*='credit'], [id*='balance']"
         },
         loginButtonText: "Giriş yap",
         findUserButtonText: "Kullanıcıyı Bul",
@@ -54,7 +54,7 @@ const sitesConfig = [
             findUserButton: "button",
             followerCount: "input[placeholder=\"50\"]",
             startButton: "button",
-            credit: ".credit-count, .credits, .balance, .user-credits, [class*=\'credit\'], [class*=\'balance\'], [id*=\'credit\'], [id*=\'balance\']"
+            credit: ".credit-count, .credits, .balance, .user-credits, [class*='credit'], [class*='balance'], [id*='credit'], [id*='balance']"
         },
         loginButtonText: "Giriş yap",
         findUserButtonText: "Kullanıcıyı Bul",
@@ -73,7 +73,7 @@ const sitesConfig = [
             findUserButton: "button",
             followerCount: "input[placeholder=\"50\"]",
             startButton: "button",
-            credit: ".credit-count, .credits, .balance, .user-credits, [class*=\'credit\'], [class*=\'balance\'], [id*=\'credit\'], [id*=\'balance\']"
+            credit: ".credit-count, .credits, .balance, .user-credits, [class*='credit'], [class*='balance'], [id*='credit'], [id*='balance']"
         },
         loginButtonText: "Giriş yap",
         findUserButtonText: "Kullanıcıyı Bul",
@@ -92,7 +92,7 @@ const sitesConfig = [
             findUserButton: "button",
             followerCount: "input[placeholder=\"50\"]",
             startButton: "button",
-            credit: ".credit-count, .credits, .balance, .user-credits, [class*=\'credit\'], [class*=\'balance\'], [id*=\'credit\'], [id*=\'balance\']"
+            credit: ".credit-count, .credits, .balance, .user-credits, [class*='credit'], [class*='balance'], [id*='credit'], [id*='balance']"
         },
         loginButtonText: "Giriş yap",
         findUserButtonText: "Kullanıcıyı Bul",
@@ -111,7 +111,7 @@ const sitesConfig = [
             findUserButton: "button",
             followerCount: "input[placeholder=\"50\"]",
             startButton: "button",
-            credit: ".credit-count, .credits, .balance, .user-credits, [class*=\'credit\'], [class*=\'balance\'], [id*=\'credit\'], [id*=\'balance\']"
+            credit: ".credit-count, .credits, .balance, .user-credits, [class*='credit'], [class*='balance'], [id*='credit'], [id*='balance']"
         },
         loginButtonText: "Giriş yap",
         findUserButtonText: "Kullanıcıyı Bul",
@@ -130,7 +130,7 @@ const sitesConfig = [
             findUserButton: "button",
             followerCount: "input[placeholder=\"50\"]",
             startButton: "button",
-            credit: ".credit-count, .credits, .balance, .user-credits, [class*=\'credit\'], [class*=\'balance\'], [id*=\'credit\'], [id*=\'balance\']"
+            credit: ".credit-count, .credits, .balance, .user-credits, [class*='credit'], [class*='balance'], [id*='credit'], [id*='balance']"
         },
         loginButtonText: "Giriş yap",
         findUserButtonText: "Kullanıcıyı Bul",
@@ -149,7 +149,7 @@ const sitesConfig = [
             findUserButton: "button",
             followerCount: "input[placeholder=\"50\"]",
             startButton: "button",
-            credit: ".credit-count, .credits, .balance, .user-credits, [class*=\'credit\'], [class*=\'balance\'], [id*=\'credit\'], [id*=\'balance\']"
+            credit: ".credit-count, .credits, .balance, .user-credits, [class*='credit'], [class*='balance'], [id*='credit'], [id*='balance']"
         },
         loginButtonText: "Giriş yap",
         findUserButtonText: "Kullanıcıyı Bul",
@@ -168,7 +168,7 @@ const sitesConfig = [
             findUserButton: "button",
             followerCount: "input[placeholder=\"50\"]",
             startButton: "button",
-            credit: ".credit-count, .credits, .balance, .user-credits, [class*=\'credit\'], [class*=\'balance\'], [id*=\'credit\'], [id*=\'balance\']"
+            credit: ".credit-count, .credits, .balance, .user-credits, [class*='credit'], [class*='balance'], [id*='credit'], [id*='balance']"
         },
         loginButtonText: "Giriş yap",
         findUserButtonText: "Kullanıcıyı Bul",
@@ -187,7 +187,7 @@ const sitesConfig = [
             findUserButton: "button",
             followerCount: "input[placeholder=\"50\"]",
             startButton: "button",
-            credit: ".credit-count, .credits, .balance, .user-credits, [class*=\'credit\'], [class*=\'balance\'], [id*=\'credit\'], [id*=\'balance\']"
+            credit: ".credit-count, .credits, .balance, .user-credits, [class*='credit'], [class*='balance'], [id*='credit'], [id*='balance']"
         },
         loginButtonText: "Giriş yap",
         findUserButtonText: "Kullanıcıyı Bul",
@@ -206,7 +206,7 @@ const sitesConfig = [
             findUserButton: "button",
             followerCount: "input[placeholder=\"25\"]",
             startButton: "button",
-            credit: ".credit-count, .credits, .balance, .user-credits, [class*=\'credit\'], [class*=\'balance\'], [id*=\'credit\'], [id*=\'balance\']"
+            credit: ".credit-count, .credits, .balance, .user-credits, [class*='credit'], [class*='balance'], [id*='credit'], [id*='balance']"
         },
         loginButtonText: "Giriş yap",
         findUserButtonText: "Kullanıcıyı Bul",
@@ -220,12 +220,12 @@ const sitesConfig = [
         selectors: {
             username: "input[placeholder=\"Kullanıcı adı\"]",
             password: "input[placeholder=\"Şifre\"]",
-            loginButton: "button",
-            targetUsername: "input[placeholder=\"fatihh\"]",
-            findUserButton: "button",
-            followerCount: "input[placeholder=\"50\"]",
-            startButton: "button",
-            credit: ".credit-count, .credits, .balance, .user-credits, [class*=\'credit\'], [class*=\'balance\'], [id*=\'credit\'], [id*=\'balance\']"
+            loginButton: "button[type=\"submit\"]",
+            targetUsername: "input[name=\"userName\"]",
+            findUserButton: "button[type=\"submit\"]",
+            followerCount: "input[name=\"followerCount\"]",
+            startButton: "button[type=\"submit\"]",
+            credit: ".credit-count, .credits, .balance, .user-credits, [class*='credit'], [class*='balance'], [id*='credit'], [id*='balance']"
         },
         loginButtonText: "Giriş yap",
         findUserButtonText: "Kullanıcıyı Bul",
@@ -237,14 +237,14 @@ const sitesConfig = [
         loginUrl: "https://canlitakipci.com",
         sendFollowerUrl: "https://canlitakipci.com/tools/send-follower",
         selectors: {
-            username: "input[placeholder=\"Kullanıcı adı\"]",
+            username: "input[name=\"username\"]",
             password: "input[name=\"password\"]",
             loginButton: "button",
             targetUsername: "input[name=\"userName\"]",
             findUserButton: "button[type=\"submit\"]",
             followerCount: "input[name=\"followerCount\"]",
             startButton: "button[type=\"submit\"]",
-            credit: ".credit-count, .credits, .balance, .user-credits, [class*=\'credit\'], [class*=\'balance\'], [id*=\'credit\'], [id*=\'balance\']"
+            credit: ".credit-count, .credits, .balance, .user-credits, [class*='credit'], [class*='balance'], [id*='credit'], [id*='balance']"
         },
         loginButtonText: "Giriş yap",
         findUserButtonText: "Kullanıcıyı Bul",
@@ -263,7 +263,7 @@ const sitesConfig = [
             findUserButton: "button[type=\"submit\"]",
             followerCount: "input[name=\"followerCount\"]",
             startButton: "button[type=\"submit\"]",
-            credit: ".credit-count, .credits, .balance, .user-credits, [class*=\'credit\'], [class*=\'balance\'], [id*=\'credit\'], [id*=\'balance\']"
+            credit: ".credit-count, .credits, .balance, .user-credits, [class*='credit'], [class*='balance'], [id*='credit'], [id*='balance']"
         },
         loginButtonText: "Giriş yap",
         findUserButtonText: "Kullanıcıyı Bul",
@@ -272,17 +272,17 @@ const sitesConfig = [
     {
         name: "takipcivar",
         baseUrl: "https://takipcivar.net",
-        loginUrl: "https://takipcivar.net/4c66efa5ce35c3b5ea99111d090bb362a713a38d",
+        loginUrl: "https://takipcivar.net/c3bd88f6c0153365246d0219791eb0aae933183a",
         sendFollowerUrl: "https://takipcivar.net/tools/send-follower",
         selectors: {
-            username: "input[placeholder=\"Kullanıcı adı\"]",
+            username: "input[name=\"username\"]",
             password: "input[name=\"password\"]",
             loginButton: "button",
             targetUsername: "input[name=\"userName\"]",
             findUserButton: "button[type=\"submit\"]",
             followerCount: "input[name=\"followerCount\"]",
             startButton: "button[type=\"submit\"]",
-            credit: ".credit-count, .credits, .balance, .user-credits, [class*=\'credit\'], [class*=\'balance\'], [id*=\'credit\'], [id*=\'balance\']"
+            credit: ".credit-count, .credits, .balance, .user-credits, [class*='credit'], [class*='balance'], [id*='credit'], [id*='balance']"
         },
         loginButtonText: "Giriş yap",
         findUserButtonText: "Kullanıcıyı Bul",
@@ -381,13 +381,13 @@ class MultiSiteAutomation {
                     '--no-zygote',
                     '--single-process',
                     '--disable-gpu'
-                ],
-                ignoreHTTPSErrors: true,
+                ]
             };
         }
 
         this.browser = await puppeteer.launch(browserOptions);
         this.page = await this.browser.newPage();
+        await this.page.setViewport({ width: 1366, height: 768 });
     }
 
     async closeBrowser() {
@@ -397,40 +397,97 @@ class MultiSiteAutomation {
     }
 
     async login(siteConfig) {
-        Logger.info(siteConfig.name, "Navegando para a página de login...");
-        await this.page.goto(siteConfig.loginUrl, { waitUntil: "networkidle2" });
+        try {
+            Logger.info(siteConfig.name, "Iniciando processo de login...");
 
-        Logger.info(siteConfig.name, "Preenchendo credenciais...");
-        await this.page.type(siteConfig.selectors.username, this.credentials.username);
-        await this.page.type(siteConfig.selectors.password, this.credentials.password);
+            Logger.info(siteConfig.name, `Navegando para: ${siteConfig.loginUrl}`);
+            await this.page.goto(siteConfig.loginUrl, { waitUntil: "networkidle2", timeout: 30000 });
+            Logger.success(siteConfig.name, "Página de login carregada");
 
-        Logger.info(siteConfig.name, "Clicando no botão de login...");
-        await Promise.all([
-            this.page.waitForNavigation({ waitUntil: "networkidle2" }),
-            this.page.click(siteConfig.selectors.loginButton)
-        ]);
+            // Extrair antiForgeryToken se presente
+            let antiForgeryToken = "";
+            const antiForgeryElement = await this.page.$("input[name=\"antiForgeryToken\"]");
+            if (antiForgeryElement) {
+                antiForgeryToken = await antiForgeryElement.evaluate(el => el.value);
+                Logger.info(siteConfig.name, `antiForgeryToken encontrado: ${antiForgeryToken}`);
+            }
 
-        const currentUrl = this.page.url();
-        if (currentUrl.includes("member") || currentUrl.includes("tools")) {
-            Logger.success(siteConfig.name, "Login bem-sucedido.");
+            await this.page.waitForSelector(siteConfig.selectors.username, { timeout: 10000 });
+            await this.page.type(siteConfig.selectors.username, this.credentials.username);
+            await this.page.type(siteConfig.selectors.password, this.credentials.password);
+
+            Logger.info(siteConfig.name, "Credenciais preenchidas, submetendo formulário...");
+            
+            const form = await this.page.$("form");
+            if (form) {
+                await Promise.all([
+                    this.page.waitForNavigation({ waitUntil: "networkidle2", timeout: 30000 }).catch(() => {}),
+                    form.evaluate(form => form.submit())
+                ]);
+            } else {
+                const loginButton = await this.page.evaluateHandle((buttonText) => {
+                    const buttons = Array.from(document.querySelectorAll("button"));
+                    return buttons.find(button => button.textContent.includes(buttonText));
+                }, siteConfig.loginButtonText);
+
+                if (!loginButton) {
+                    throw new Error("Botão de login ou formulário não encontrado.");
+                }
+
+                await Promise.all([
+                    this.page.waitForNavigation({ waitUntil: "networkidle2", timeout: 30000 }).catch(() => {}),
+                    loginButton.click()
+                ]);
+            }
+
+            Logger.success(siteConfig.name, "Login realizado com sucesso!");
             return true;
-        } else {
-            Logger.error(siteConfig.name, "Falha no login. Credenciais inválidas ou seletor incorreto.");
+
+        } catch (error) {
+            Logger.error(siteConfig.name, `Erro durante o login: ${error.message}`);
             return false;
         }
     }
 
-    async getCredit(siteConfig) {
-        Logger.info(siteConfig.name, "Obtendo créditos...");
+   async getFollowerCredits(siteConfig) {
         try {
-            await this.page.goto(siteConfig.sendFollowerUrl, { waitUntil: "networkidle2" });
-            const creditElement = await this.page.$(siteConfig.selectors.credit);
-            if (creditElement) {
-                const creditText = await this.page.evaluate(el => el.textContent, creditElement);
-                Logger.info(siteConfig.name, `Créditos disponíveis: ${creditText.trim()}`);
-                return parseInt(creditText.replace(/\D/g, "")) || 0;
-            } else {
-                Logger.warning(siteConfig.name, "Elemento de crédito não encontrado.");
+            Logger.info(siteConfig.name, `Navegando para: ${siteConfig.sendFollowerUrl}`);
+            await this.page.goto(siteConfig.sendFollowerUrl, { waitUntil: "networkidle2", timeout: 30000 });
+            Logger.success(siteConfig.name, "Página de envio de seguidores carregada");
+            
+            try {
+                await this.page.waitForSelector(siteConfig.selectors.credit, { timeout: 10000 });
+                const credits = await this.page.$eval(siteConfig.selectors.credit, el => parseInt(el.textContent.trim(), 10));
+                Logger.info(siteConfig.name, `Créditos disponíveis: ${credits}`);
+                return credits;
+            } catch (error) {
+                // Tentar seletores alternativos para créditos
+                const alternativeSelectors = [
+                    '.balance',
+                    '.credit',
+                    '.credits',
+                    '[class*="credit"]',
+                    '[class*="balance"]',
+                    '[id*="credit"]',
+                    '[id*="balance"]',
+                    '.user-balance',
+                    '.user-credit'
+                ];
+                
+                for (const selector of alternativeSelectors) {
+                    try {
+                        await this.page.waitForSelector(selector, { timeout: 2000 });
+                        const credits = await this.page.$eval(selector, el => parseInt(el.textContent.trim(), 10));
+                        if (!isNaN(credits)) {
+                            Logger.info(siteConfig.name, `Créditos disponíveis: ${credits}`);
+                            return credits;
+                        }
+                    } catch (e) {
+                        continue;
+                    }
+                }
+                
+                Logger.warning(siteConfig.name, "Créditos não encontrados, assumindo 0");
                 return 0;
             }
         } catch (error) {
@@ -439,79 +496,160 @@ class MultiSiteAutomation {
         }
     }
 
-    async sendFollowers(siteConfig, targetUsername, followerCount) {
-        Logger.info(siteConfig.name, `Enviando ${followerCount} seguidores para ${targetUsername}...`);
+    async sendFollowers(siteConfig, targetUsername, followerCount = 500) {
         try {
-            await this.page.goto(siteConfig.sendFollowerUrl, { waitUntil: "networkidle2" });
+            Logger.info(siteConfig.name, `Iniciando envio de ${followerCount} seguidores para ${targetUsername}...`);
+            
+            await this.page.goto(siteConfig.sendFollowerUrl, { waitUntil: "networkidle2", timeout: 30000 });
+            Logger.success(siteConfig.name, "Página de envio carregada");
 
-            Logger.info(siteConfig.name, "Preenchendo nome de usuário alvo...");
+            // Aguardar e preencher o campo de usuário alvo
+            await this.page.waitForSelector(siteConfig.selectors.targetUsername, { timeout: 10000 });
             await this.page.type(siteConfig.selectors.targetUsername, targetUsername);
 
-            Logger.info(siteConfig.name, "Clicando no botão 'Encontrar Usuário'...");
-            await Promise.all([
-                this.page.waitForNavigation({ waitUntil: "networkidle2" }),
-                this.page.click(siteConfig.selectors.findUserButton)
-            ]);
+            Logger.info(siteConfig.name, `Procurando usuário: ${targetUsername}`);
+            
+            // Encontrar o botão "Kullanıcıyı Bul"
+            const findUserButton = await this.page.evaluateHandle((buttonText) => {
+                const buttons = Array.from(document.querySelectorAll("button"));
+                return buttons.find(button => button.textContent.includes(buttonText));
+            }, siteConfig.findUserButtonText);
 
-            Logger.info(siteConfig.name, "Preenchendo contagem de seguidores...");
-            await this.page.type(siteConfig.selectors.followerCount, followerCount.toString());
+            if (findUserButton) {
+                await Promise.all([
+                    this.page.waitForNavigation({ waitUntil: "networkidle2", timeout: 30000 }).catch(() => {}),
+                    findUserButton.click()
+                ]);
+                Logger.success(siteConfig.name, "Usuário encontrado");
+            }
 
-            Logger.info(siteConfig.name, "Clicando no botão 'Iniciar'...");
-            await Promise.all([
-                this.page.waitForNavigation({ waitUntil: "networkidle2" }),
-                this.page.click(siteConfig.selectors.startButton)
-            ]);
+            // Preencher quantidade de seguidores
+            try {
+                await this.page.waitForSelector(siteConfig.selectors.followerCount, { timeout: 10000 });
+                await this.page.evaluate((count, selector) => {
+                    const input = document.querySelector(selector);
+                    if (input) {
+                        input.value = '';
+                        input.value = count.toString();
+                    }
+                }, followerCount, siteConfig.selectors.followerCount);
+            } catch (error) {
+                // Tentar seletores alternativos para o campo de quantidade
+                const alternativeSelectors = [
+                    'input[type="number"]',
+                    'input[name*="count"]',
+                    'input[name*="amount"]',
+                    'input[placeholder*="50"]',
+                    'input[placeholder*="100"]',
+                    'input[placeholder*="25"]'
+                ];
+                
+                let found = false;
+                for (const selector of alternativeSelectors) {
+                    try {
+                        await this.page.waitForSelector(selector, { timeout: 2000 });
+                        await this.page.evaluate((count, sel) => {
+                            const input = document.querySelector(sel);
+                            if (input) {
+                                input.value = '';
+                                input.value = count.toString();
+                            }
+                        }, followerCount, selector);
+                        found = true;
+                        break;
+                    } catch (e) {
+                        continue;
+                    }
+                }
+                
+                if (!found) {
+                    Logger.warning(siteConfig.name, "Campo de quantidade não encontrado, continuando sem definir quantidade específica");
+                }
+            }
 
-            Logger.success(siteConfig.name, `Envio de ${followerCount} seguidores para ${targetUsername} concluído.`);
-            return true;
+            Logger.info(siteConfig.name, `Quantidade definida: ${followerCount} seguidores`);
+
+            // Encontrar e clicar no botão de início
+            const startButton = await this.page.evaluateHandle((buttonTexts) => {
+                const buttons = Array.from(document.querySelectorAll("button"));
+                return buttons.find(button => 
+                    buttonTexts.some(text => button.textContent.includes(text))
+                );
+            }, siteConfig.startButtonText);
+
+            if (startButton) {
+                await startButton.click();
+                Logger.success(siteConfig.name, `Processo de envio iniciado! ${followerCount} seguidores enviados para ${targetUsername}`);
+                return true;
+            } else {
+                throw new Error("Botão de início não encontrado");
+            }
+
         } catch (error) {
-            Logger.error(siteConfig.name, `Erro ao enviar seguidores: ${error.message}`);
+            Logger.error(siteConfig.name, `Erro durante envio de seguidores: ${error.message}`);
             return false;
         }
     }
 
-    async runAutomation(targetUsername, followerCount) {
-        Logger.header("INICIANDO AUTOMAÇÃO MULTI-SITE");
-        this.stats.total = this.sitesConfig.length;
-
-        for (let i = 0; i < this.sitesConfig.length; i++) {
-            this.currentSiteIndex = i;
-            const siteConfig = this.sitesConfig[i];
-            Logger.header(`Processando site: ${siteConfig.name}`);
-
-            try {
-                await this.initBrowser();
-                const loggedIn = await this.login(siteConfig);
-
-                if (loggedIn) {
-                    const credit = await this.getCredit(siteConfig);
-                    if (credit > 0) {
-                        const sent = await this.sendFollowers(siteConfig, targetUsername, followerCount);
-                        if (sent) {
-                            this.stats.success++;
-                        } else {
-                            this.stats.error++;
-                        }
-                    } else {
-                        Logger.warning(siteConfig.name, "Créditos insuficientes. Pulando envio de seguidores.");
-                        this.stats.skipped++;
-                    }
-                } else {
-                    this.stats.error++;
-                }
-            } catch (error) {
-                Logger.error(siteConfig.name, `Erro inesperado durante a automação: ${error.message}`);
+    async processSite(siteConfig, targetUsername, followerCount) {
+        this.stats.total++;
+        
+        try {
+            Logger.header(`PROCESSANDO SITE: ${siteConfig.name.toUpperCase()}`);
+            
+            const loginSuccess = await this.login(siteConfig);
+            if (!loginSuccess) {
                 this.stats.error++;
-            } finally {
-                await this.closeBrowser();
+                return false;
             }
-        }
 
-        Logger.stats(this.stats);
-        Logger.header("AUTOMAÇÃO CONCLUÍDA");
+            const credits = await this.getFollowerCredits(siteConfig);
+
+
+            const sendSuccess = await this.sendFollowers(siteConfig, targetUsername, followerCount);
+            if (sendSuccess) {
+                this.stats.success++;
+                return true;
+            } else {
+                this.stats.error++;
+                return false;
+            }
+
+        } catch (error) {
+            Logger.error(siteConfig.name, `Erro geral: ${error.message}`);
+            this.stats.error++;
+            return false;
+        }
+    }
+
+    async startInfiniteLoop(targetUsername, followerCount) {
+        Logger.header(`AUTOMAÇÃO MULTI-SITE INICIADA`);
+        Logger.info("SISTEMA", `Usuário alvo: ${targetUsername}`);
+        Logger.info("SISTEMA", `Seguidores por site: ${followerCount}`);
+        Logger.info("SISTEMA", `Total de sites: ${this.sitesConfig.length}`);
+        
+        while (true) {
+            for (const siteConfig of this.sitesConfig) {
+                await this.processSite(siteConfig, targetUsername, followerCount);
+                
+                // Aguardar 3 segundos entre sites
+                Logger.info("SISTEMA", "Aguardando 3 segundos antes do próximo site...");
+                await new Promise(resolve => setTimeout(resolve, 3000));
+            }
+
+            // Mostrar estatísticas após cada ciclo
+            Logger.stats(this.stats);
+            
+            // Aguardar 1 hora e 30 minutos antes do próximo ciclo
+            Logger.info("SISTEMA", "Aguardando 1 hora e 30 minutos antes do próximo ciclo...");
+            await new Promise(resolve => setTimeout(resolve, 90 * 60 * 1000));
+            
+            // Reset das estatísticas para o próximo ciclo
+            this.stats = { success: 0, error: 0, skipped: 0, total: 0 };
+        }
     }
 }
 
 module.exports = MultiSiteAutomation;
 
-
+            

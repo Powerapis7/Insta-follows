@@ -1,4 +1,4 @@
-const MultiSiteAutomation = require('./multi_site_automation_enhanced');
+const MultiSiteAutomation = require('./script');
 const express = require('express');
 const fs = require('fs').promises;
 

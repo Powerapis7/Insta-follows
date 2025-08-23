@@ -28,13 +28,29 @@ async function startAutomation() {
         return;
     }
 
-    for (const account of accounts) {
-        console.log(`Iniciando automação para a conta: ${account.username}`);
-        const automation = new MultiSiteAutomation(account.username, account.password);
-        await automation.initBrowser();
-        // Passar a lista de sites para a automação
-        await automation.startInfiniteLoop(targetUsername, followerCount, automation.sitesConfig.map(site => site.name));
-        await automation.closeBrowser();
+    while (true) { // loop infinito aqui fora
+        for (let i = 0; i < accounts.length; i++) {
+            const account = accounts[i];
+            console.log(`Iniciando automação para a conta: ${account.username}`);
+
+            const automation = new MultiSiteAutomation(account.username, account.password);
+            await automation.initBrowser();
+            
+            // 🚀 novo método: processa só 1 ciclo dos sites
+            await automation.runOneCycle(targetUsername, followerCount);
+            
+            await automation.closeBrowser();
+
+            // Se não for a última conta, espera 5 minutos
+            if (i < accounts.length - 1) {
+                console.log("⏳ Aguardando 5 minutos antes da próxima conta...");
+                await new Promise(resolve => setTimeout(resolve, 5 * 60 * 1000));
+            }
+        }
+
+        // Quando terminar TODAS as contas, espera 1h30min
+        console.log("⏳ Todas as contas processadas. Aguardando 1h30min antes de reiniciar...");
+        await new Promise(resolve => setTimeout(resolve, 90 * 60 * 1000));
     }
 }
 

@@ -642,7 +642,8 @@ class MultiSiteAutomation {
     // Resetar estatísticas para o próximo ciclo
     this.stats = { success: 0, error: 0, skipped: 0, total: 0 };
 }
-
+}
+}
 module.exports = MultiSiteAutomation;
 
             
